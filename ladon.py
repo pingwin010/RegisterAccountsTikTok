@@ -10,7 +10,6 @@ def md5bytes(data: bytes) -> str:
     
     return m.hexdigest()
 
-
 def get_type_data(ptr, index, data_type):
     if data_type == "uint64_t":
         return int.from_bytes(ptr[index * 8 : (index + 1) * 8], "little")
