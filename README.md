@@ -3,6 +3,7 @@ register tiktok accounts, create tiktok accounts, api device register ttencrypt 
 
 
 ## tiktok API
+
 1. login to the user by email and username
 2. register new device
 3. receive information of the user through user_id
